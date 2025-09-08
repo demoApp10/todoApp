@@ -1,0 +1,253 @@
+{
+  "rootFolder": "c:\\Users\\gaurav_singh9\\Desktop\\todo-app",
+  "analyzedAt": "2025-09-08T12:11:25.243Z",
+  "rootStructure": [
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "size": 253,
+      "lines": 25
+    },
+    {
+      "name": "eslint.config.js",
+      "type": "file",
+      "size": 763,
+      "lines": 30
+    },
+    {
+      "name": "index.html",
+      "type": "file",
+      "size": 357,
+      "lines": 14
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "size": 605,
+      "lines": 28
+    },
+    {
+      "name": "public",
+      "type": "dir"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "size": 856,
+      "lines": 13
+    },
+    {
+      "name": "src",
+      "type": "dir"
+    },
+    {
+      "name": "vite.config.js",
+      "type": "file",
+      "size": 161,
+      "lines": 8
+    }
+  ],
+  "rootFileSnippets": {
+    "eslint.config.js": [
+      "import js from '@eslint/js'",
+      "import globals from 'globals'",
+      "import reactHooks from 'eslint-plugin-react-hooks'",
+      "import reactRefresh from 'eslint-plugin-react-refresh'",
+      "import { defineConfig, globalIgnores } from 'eslint/config'",
+      "",
+      "export default defineConfig([",
+      "globalIgnores(['dist']),",
+      "{",
+      "files: ['**/*.{js,jsx}'],"
+    ],
+    "index.html": [
+      "<!doctype html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "<meta charset=\"UTF-8\" />",
+      "<link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "<title>Todo App</title>",
+      "</head>",
+      "<body>",
+      "<div id=\"root\"></div>"
+    ],
+    "package.json": [
+      "{",
+      "\"name\": \"todo-app\",",
+      "\"private\": true,",
+      "\"version\": \"0.0.0\",",
+      "\"type\": \"module\",",
+      "\"scripts\": {",
+      "\"dev\": \"vite\",",
+      "\"build\": \"vite build\",",
+      "\"lint\": \"eslint .\",",
+      "\"preview\": \"vite preview\""
+    ],
+    "README.md": [
+      "# React + Vite",
+      "",
+      "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+      "",
+      "Currently, two official plugins are available:",
+      "",
+      "- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh",
+      "- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh",
+      "",
+      "## Expanding the ESLint configuration"
+    ],
+    "vite.config.js": [
+      "import { defineConfig } from 'vite'",
+      "import react from '@vitejs/plugin-react'",
+      "",
+      "// https://vite.dev/config/",
+      "export default defineConfig({",
+      "plugins: [react()],",
+      "})",
+      ""
+    ]
+  },
+  "importantFolders": [
+    {
+      "path": "public",
+      "category": "assets",
+      "fileCount": 1
+    },
+    {
+      "path": "src\\assets",
+      "category": "assets",
+      "fileCount": 1
+    }
+  ],
+  "readmeParagraphs": {
+    "root": "# React + Vite"
+  },
+  "totals": {
+    "numFiles": 13,
+    "numDirs": 4,
+    "totalSizeBytes": 11852,
+    "totalLinesOfCode": 98
+  },
+  "fileCategories": {
+    "other": 6,
+    "source": 5,
+    "config": 1,
+    "documentation": 1
+  },
+  "linesOfCodePerLanguage": {
+    "JavaScript": 98
+  },
+  "filesPerLanguage": {
+    "JavaScript": 5
+  },
+  "projectTypes": [
+    "JavaScript/Node.js"
+  ],
+  "frameworks": [
+    "React",
+    "Vite"
+  ],
+  "entryPoints": [],
+  "ciCdTools": [],
+  "packageManagers": [
+    "npm/yarn"
+  ],
+  "topLevelDirectories": [
+    {
+      "name": "src",
+      "numFiles": 6,
+      "totalLoc": 60,
+      "dominantLanguage": "JavaScript"
+    },
+    {
+      "name": "public",
+      "numFiles": 1,
+      "totalLoc": 0
+    }
+  ],
+  "detailedDirectories": [
+    {
+      "path": "src",
+      "name": "src",
+      "level": 1,
+      "numFiles": 6,
+      "totalLoc": 60,
+      "dominantLanguage": "JavaScript",
+      "category": "General",
+      "description": "General module with 6 files (JavaScript)",
+      "subdirectories": [
+        {
+          "path": "src\\component",
+          "name": "component",
+          "level": 2,
+          "numFiles": 1,
+          "totalLoc": 13,
+          "dominantLanguage": "JavaScript",
+          "category": "General",
+          "description": "General module with 1 files (JavaScript)",
+          "subdirectories": []
+        },
+        {
+          "path": "src\\assets",
+          "name": "assets",
+          "level": 2,
+          "numFiles": 1,
+          "totalLoc": 0,
+          "category": "General",
+          "description": "General module with 1 files",
+          "subdirectories": []
+        }
+      ]
+    },
+    {
+      "path": "public",
+      "name": "public",
+      "level": 1,
+      "numFiles": 1,
+      "totalLoc": 0,
+      "category": "General",
+      "description": "General module with 1 files",
+      "subdirectories": []
+    }
+  ],
+  "architecturalInsights": {
+    "coreApplications": [],
+    "entryPointDetails": [],
+    "serviceArchitecture": {
+      "microservices": [],
+      "monoliths": [],
+      "libraries": []
+    },
+    "layeredArchitecture": {
+      "presentation": [],
+      "business": [],
+      "data": [],
+      "infrastructure": []
+    }
+  },
+  "largeFiles": [],
+  "dependencies": {
+    "production": [
+      "react",
+      "react-dom"
+    ],
+    "development": [
+      "@eslint/js",
+      "@types/react",
+      "@types/react-dom",
+      "@vitejs/plugin-react",
+      "eslint",
+      "eslint-plugin-react-hooks",
+      "eslint-plugin-react-refresh",
+      "globals",
+      "vite"
+    ],
+    "total": 11
+  },
+  "complexity": {
+    "averageFileSize": 7.538461538461538,
+    "maxFileSize": 0,
+    "nestedDepth": 0,
+    "estimatedComplexity": "low"
+  }
+}
